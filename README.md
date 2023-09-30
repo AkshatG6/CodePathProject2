@@ -30,6 +30,8 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 [![Thumbnail Description](THUMBNAIL_IMAGE_URL)](https://imgur.com/a/ntE8xWN)
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/ntE8xWN"  ><a href="//imgur.com/a/ntE8xWN">Wordle Pt.2</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 [Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
 
 ## Notes
