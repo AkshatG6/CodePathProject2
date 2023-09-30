@@ -22,6 +22,7 @@ class ViewController: UIViewController,
     super.viewDidLoad()
     
     setupNavigationBar()
+      
     
     boardController = BoardController(collectionView: wordsCollectionView)
     keyboardController = KeyboardController(collectionView: keyboardCollectionView)
@@ -38,6 +39,7 @@ class ViewController: UIViewController,
                                              action: #selector(didTapSettingsButton))
     rightBarButtonItem.tintColor = .white
     navigationItem.rightBarButtonItem = rightBarButtonItem
+
     // Exercise 5 Pt. 1 (optional): Add a button on the left-hand side of the navigation bar to reset the
     // game with the current settings
     // Tip 1: Look at how the `rightBarButton` is created and use it as an example. You may create a new
@@ -47,6 +49,8 @@ class ViewController: UIViewController,
     // in the function that you fire when the button is tapped
     // START YOUR CODE HERE
     // ...
+    let leftBarButtonItem = UIBarButtonItem(title: "Reset", style: .plain, target: self, action: #selector(didTapResetButton))
+    navigationItem.leftBarButtonItem = leftBarButtonItem
     // END YOUR CODE HERE
   }
   
@@ -54,6 +58,10 @@ class ViewController: UIViewController,
     performSegue(withIdentifier: segueIdentifier, sender: nil)
   }
   
+  @objc private func didTapResetButton() {
+    boardController.resetBoardWithCurrentSettings()
+  }
+
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     guard segue.identifier == segueIdentifier else { return }
     let settingsViewController = segue.destination as! SettingsViewController

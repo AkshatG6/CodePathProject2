@@ -51,8 +51,11 @@ class BoardController: NSObject,
   func resetBoardWithCurrentSettings() {
     // START YOUR CODE HERE
     // ...
+    numTimesGuessed = 0
+    collectionView.reloadData()
     // END YOUR CODE HERE
   }
+    
   
   // Exercise 1: Implement applyNumLettersSettings to change the number of letters in the goal word
   // Tip 1: Use a breakpoint to inspect or print the `settings` argument
@@ -63,6 +66,11 @@ class BoardController: NSObject,
   private func applyNumLettersSettings(with settings: [String: Any]) {
     // START YOUR CODE HERE
     // ...
+      if let numLettersValue = settings["numLetters"] as? Int {
+              numItemsPerRow = numLettersValue
+          } else {
+              print("Could not retrieve number of letters from settings or cast was not successful.")
+          }
     // END YOUR CODE HERE
   }
   
@@ -75,6 +83,11 @@ class BoardController: NSObject,
   private func applyNumGuessesSettings(with settings: [String: Any]) {
     // START YOUR CODE HERE
     // ...
+      if let numGuessesValue = settings["numGuesses"] as? Int {
+          numRows = numGuessesValue
+      } else {
+          print("Could not retrieve number of guesses from settings or cast was not successful.")
+      }
     // END YOUR CODE HERE
   }
   
@@ -88,16 +101,24 @@ class BoardController: NSObject,
   private func applyThemeSettings(with settings: [String: Any]) {
     // START YOUR CODE HERE
     // ...
+      if let themeString = settings[kWordThemeKey] as? String,
+             let theme = WordTheme(rawValue: themeString) {
+              goalWord = WordGenerator.generateGoalWord(with: theme)
+          } else {
+              print("Could not retrieve theme from settings or cast was not successful.")
+          }
     // END YOUR CODE HERE
   }
   
   // Exercise 4: Implement applyIsAlienWordleSettings to change the goal word after each guess
   // Tip 1: There is a constant `kIsAlienWordleKey` in Constants.swift that you can use as the key to grab the value in the dictionary
   // Tip 2: There is a corresponding property located in this file that you should assign the value of the setting to (look at the "Properties" section above).
-  // Checkpoint: Correctly implementing this function should change the goal word each time the user inputs an entire row of letters
-  private func applyIsAlienWordleSettings(with settings: [String: Any]) {
-    // START YOUR CODE HERE
-    // ...
-    // START YOUR CODE HERE
-  }
+    private func applyIsAlienWordleSettings(with settings: [String: Any]) {
+        if let isAlienValue = settings[kIsAlienWordleKey] as? Bool {
+            isAlienWordle = isAlienValue
+        } else {
+            print("Could not retrieve isAlienWordle value from settings or cast was not successful.")
+        }
+    }
+
 }
