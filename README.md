@@ -1,53 +1,34 @@
-# Project 2 - *Wordle Pt.2*
+# Wordle Pt.2 🎮
 
-Submitted by: **Akshat Gandhi**
+**Wordle** is a modern and intuitive word-guessing application that engages users with customizability and intriguing themes. Crafted with attention to user experience, this app allows players to test their vocabulary skills in a dynamic and challenging environment.
 
-**Wordle** is an app that gives users chances to guess the correct word.
+## Developer:
+- **Name**: Akshat Gandhi
 
-Time spent: **3** hours spent in total
+## Features
 
-## Required Features
+### Core Features:
+- **Custom Gameplay**: Users can modify the game by:
+  - Adjusting the number of letters per row, which dictates the length of the goal word.
+  - Choosing the number of rows on the board, determining the number of guesses allowed.
+- **Theme Selection**: Choose from various themed sets to pull the goal word from.
+- **Alien Wordle Mode**: Adds an unexpected twist! The goal word changes after each guess, making the game more unpredictable and thrilling.
 
-The following **required** functionality is completed:
+### Optional Features:
+- **Game Reset**: A reset button allows users to restart their game while maintaining their settings.
 
-- [Yes ] User can change the number of letters per row (the length of the goal word)
-- [ Yes] User can change the numbers of rows on the board (how many guesses allowed)
-- [Yes ] User can select a new themed set to pull the goal word from
-- [ Yes] User can select "alien wordle", causing the goal word to change after each guess
+### Screenshots:
+< Add your screenshots here >
 
-
-The following **optional** features are implemented:
-
-- [ Yes] App displays a reset button on the top left to reset the game (but make no changes to the settings)
-
-The following **additional** features are implemented:
-
-- [ N/A ] List anything else that you can get done to improve the app functionality!
+> _Note: You can display screenshots using the following syntax:_
+> `![Description]([URL_of_image](https://imgur.com/a/5Ni59N2))`
 
 ## Video Walkthrough
+A detailed walkthrough of the application can be found below:
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
+![Wordle Pt.2 Walkthrough](//imgur.com/a/ntE8xWN)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/ntE8xWN"  ><a href="//imgur.com/a/ntE8xWN">Wordle Pt.2</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+## Challenges:
+< Describe any challenges or hurdles you faced while building this app. This will provide a personal touch and let readers know more about your development journey. >
 
-![Alt text for the image/GIF](//imgur.com/a/ntE8xWN)
-
-## Notes
-
-Describe any challenges encountered while building the app.
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+## Licensing:
