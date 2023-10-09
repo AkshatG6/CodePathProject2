@@ -28,6 +28,9 @@
 
 <img src="https://drive.google.com/uc?export=view&id=16vm4PpqbhhFDCtalv-PRdtuyAWp2q6OT" width="200">
 
+<img src="https://imgur.com/a/5Ni59N2" width="200">
+
+
 
 ## Video Walkthrough
 A detailed walkthrough of the application can be found below:
