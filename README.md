@@ -1,4 +1,4 @@
-# Wordle Pt.2 🎮
+# Wordle 🎮
 
 **Wordle** is a modern and intuitive word-guessing application that engages users with customizability and intriguing themes. Crafted with attention to user experience, this app allows players to test their vocabulary skills in a dynamic and challenging environment.
 
@@ -35,7 +35,6 @@
 A detailed walkthrough of the application can be found below:
 
 ![Wordle Pt.2 Walkthrough](//imgur.com/a/ntE8xWN)
-<iframe width="560" height="315" src="//imgur.com/a/ntE8xWN" frameborder="0" allowfullscreen></iframe>
 
 ## Challenges:
 < Describe any challenges or hurdles you faced while building this app. This will provide a personal touch and let readers know more about your development journey. >
