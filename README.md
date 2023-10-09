@@ -18,7 +18,8 @@
 - **Game Reset**: A reset button allows users to restart their game while maintaining their settings.
 
 ### Screenshots:
-![Wordle Pt.2 Screenshot](https://drive.google.com/file/d/1C5qD9Gws8HP9g7CHTNFkcpx8cJvFYf-x/view?usp=sharing)
+![Wordle Pt.2 Screenshot](https://drive.google.com/uc?export=view&id=1C5qD9Gws8HP9g7CHTNFkcpx8cJvFYf-x)
+
 
 > _Note: You can display screenshots using the following syntax:_
 > `![Description]([URL_of_image](https://imgur.com/a/5Ni59N2))`
