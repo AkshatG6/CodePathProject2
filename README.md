@@ -18,12 +18,16 @@
 - **Game Reset**: A reset button allows users to restart their game while maintaining their settings.
 
 ### Screenshots:
-![Wordle Pt.2 Screenshot](https://drive.google.com/uc?export=view&id=1C5qD9Gws8HP9g7CHTNFkcpx8cJvFYf-x)
+<img src="https://drive.google.com/uc?export=view&id=1C5qD9Gws8HP9g7CHTNFkcpx8cJvFYf-x" width="200">
+
 <img src="https://drive.google.com/uc?export=view&id=1Lw017RfBnU_XOuKn-XxX1AyNt3l-OvK3" width="200">
 
+<img src="https://drive.google.com/uc?export=view&id=18D3LVirCH-xTQzWm8425lfEA8ABITJyq" width="200">
 
-> _Note: You can display screenshots using the following syntax:_
-> `![Description]([URL_of_image](https://imgur.com/a/5Ni59N2))`
+<img src="https://drive.google.com/uc?export=view&id=1lpFZIqiG29dOSHgpdD6cfICZ9rUqJCVU" width="200">
+
+<img src="https://drive.google.com/uc?export=view&id=16vm4PpqbhhFDCtalv-PRdtuyAWp2q6OT" width="200">
+
 
 ## Video Walkthrough
 A detailed walkthrough of the application can be found below:
