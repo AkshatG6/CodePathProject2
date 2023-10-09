@@ -19,7 +19,7 @@
 
 ### Screenshots:
 < Add your screenshots here >
-![Description]([URL_of_image](https://imgur.com/a/5Ni59N2))
+![Description](https://imgur.com/a/5Ni59N2)
 
 > _Note: You can display screenshots using the following syntax:_
 > `![Description]([URL_of_image](https://imgur.com/a/5Ni59N2))`
