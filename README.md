@@ -19,6 +19,7 @@
 
 ### Screenshots:
 ![Wordle Pt.2 Screenshot](https://drive.google.com/uc?export=view&id=1C5qD9Gws8HP9g7CHTNFkcpx8cJvFYf-x)
+<img src="https://drive.google.com/uc?export=view&id=1Lw017RfBnU_XOuKn-XxX1AyNt3l-OvK3" width="200">
 
 
 > _Note: You can display screenshots using the following syntax:_
